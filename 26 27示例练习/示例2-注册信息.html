@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>示例2</title>
+</head>
+<body>
+  <h1>注册信息</h1>
+  <form>
+    <h2>个人信息</h2>
+    <table>
+      <p><strong>姓名:</strong><input type="text" placeholder="请输入真实姓名"></p>
+      <p><strong>密码:</strong><input type="password" placeholder="请输入密码"></p>
+      <p><strong>确认密码:</strong><input type="password" placeholder="请输入确认密码"></p>
+      <p>
+        <strong>性别:</strong>
+        <input type="radio" name="gender" id="男" checked>
+        <label for="男">男</label>
+        <input type="radio" name="gender" id="女">
+        <label for="女">女</label>
+      </p>
+      <p>
+        <strong>现居城市:</strong>
+        <select>
+          <option selected>杭州</option>
+          <option>上海</option>
+          <option>成都</option>
+          <option>温州</option>
+          <option>北京</option>
+        </select>
+      </p>
+    </table>
+    <h2>教育经历</h2>
+    <table>
+      <p>
+      <strong>最高学历:</strong>
+        <select>
+          <option>博士</option>
+          <option>硕士</option>
+          <option>学士</option>
+          <option>高中</option>
+          <option>初中</option>
+          <option selected>W</option>
+        </select>
+      </p>
+      <p>
+        <strong>学校名称:</strong>
+        <input type="text" placeholder="请输入在校时间">
+      </p>
+      <p>
+        <strong>所学专业:</strong>
+        <input type="text" placeholder="请输入所学专业">
+      </p>
+      <p>
+        <strong>在校时间:</strong>  
+        <select>
+          <option selected>1000</option>
+          <option>2000</option>
+          <option>3000</option>
+        </select>
+        ~
+        <select>
+          <option selected>4000</option>
+          <option>5000</option>
+          <option>6000</option>
+        </select>
+      </p>
+    </table>
+    <h2>工作经历</h2>
+    <table>
+      <p>
+        <strong>公司名称:</strong>
+        <input type="text" placeholder="请输入公司名称">
+      </p>
+      <p>
+        <strong>工作描述:</strong><br>
+        <textarea></textarea>
+      </p>
+    </table>
+    <table>
+      <input type="checkbox" id="同意">
+      <label for="同意"><strong>已阅读并同意以下协议</strong></label>
+      <br>
+      <ul>
+        <li><strong><a href="#">协议1</a></strong></li>
+        <li><strong><a href="#">协议2</a></strong></li>
+      </ul>
+      <button type="submit">免费注册</button>
+      <button type="reset">重新填写</button>
+    </table>
+  </form>
+</body>
+</html>
